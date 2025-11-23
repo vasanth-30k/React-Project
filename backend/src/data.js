@@ -1,0 +1,297 @@
+export const sample_foods= [
+    {
+        id: '1',
+        name: 'Pizza Pepperoni',
+        cookTime: '30-40',
+        price: 15,
+        favorite: true,
+        origins: ['Italy'],
+        stars: 4.5,
+        imageUrl: 'food-1.jpg',
+        tags: ['Fastfood','Pizza','Lunch'],
+    },
+
+    {
+        id: '2',
+        name: 'Veg Pizza',
+        cookTime: '30-45',
+        price: 12,
+        favorite: false,
+        origins: ['Italy'],
+        stars: 4.0,
+        imageUrl: 'food-2.jpg',
+        tags: ['Fastfood','Pizza','Lunch'],
+    },
+
+    {
+        id: '3',
+        name: 'Hamburger',
+        cookTime: '10-15',
+        price: 6,
+        favorite: false,
+        origins: ['Germany','Us'],
+        stars: 3.5,
+        imageUrl: 'food-3.jpg',
+        tags: ['Fastfood','Hamburger'],
+    },
+
+    {
+        id: '4',
+        name: 'French Fries',
+        cookTime: '15-20',
+        price: 7,
+        favorite: true,
+        origins: ['Belgium','France'],
+        stars: 4.0,
+        imageUrl: 'food-4.jpg',
+        tags: ['Fastfood','Fry'],
+    },
+
+    {
+        id: '5',
+        name: 'Chicken Soup',
+        cookTime: '20-30',
+        price: 7,
+        favorite: false,
+        origins: ['India'],
+        stars: 3.0,
+        imageUrl: 'food-5.jpg',
+        tags: ['Slowfood','Soup'],
+    },
+
+    {
+        id: '6',
+        name: 'Meatball',
+        cookTime: '20-30',
+        price: 12,
+        favorite: true,
+        origins: ['Persia','Middle East','China'],
+        stars: 4.5,
+        imageUrl: 'food-6.jpg',
+        tags: ['Slowfood','Lunch'],
+    },
+
+    {
+        id: '7',
+        name: 'Peri Peri Chicken Roll ',
+        cookTime: '10-15',
+        price: 7,
+        favorite: true,
+        origins: ['Gulf'],
+        stars: 4.5,
+        imageUrl: 'food-7.png',
+        tags: ['Fastfood','Roll','Shawarma'],
+    },
+
+    {
+        id: '8',
+        name: 'Chicken Roll ',
+        cookTime: '10-15',
+        price: 5,
+        favorite: false,
+        origins: ['Gulf'],
+        stars: 4.0,
+        imageUrl: 'food-8.png',
+        tags: ['Fastfood','Roll','Shawarma'],
+    },
+
+    {
+        id: '9',
+        name: 'Veg Roll',
+        cookTime: '10-15',
+        price: 4,
+        favorite: false,
+        origins: ['Gulf'],
+        stars: 4.0,
+        imageUrl: 'food-9.png',
+        tags: ['Fastfood','Roll','Shawarma'],
+    },
+
+    {
+        id: '10',
+        name: 'Butter Noodles',
+        cookTime: '10-20',
+        price: 8,
+        favorite: false,
+        origins: ['Chinese'],
+        stars: 3.0,
+        imageUrl: 'food-10.png',
+        tags: ['Fastfood','Noodles'],
+    },
+
+     {
+        id: '11',
+        name: 'Schezwan Noodles',
+        cookTime: '10-20',
+        price: 8,
+        favorite: false,
+        origins: ['Chinese'],
+        stars: 4.0,
+        imageUrl: 'food-11.png',
+        tags: ['Fastfood','Noodles'],
+    },
+
+     {
+        id: '12',
+        name: 'Chicken Noodles',
+        cookTime: '10-20',
+        price: 10,
+        favorite: true,
+        origins: ['Chinese'],
+        stars: 4.5,
+        imageUrl: 'food-12.png',
+        tags: ['Fastfood','Noodles'],
+    },
+
+     {
+        id: '13',
+        name: 'Cheese Pasta',
+        cookTime: '10-20',
+        price: 12,
+        favorite: false,
+        origins: ['Italy'],
+        stars: 4.5,
+        imageUrl: 'food-13.png',
+        tags: ['Fastfood','Pasta'],
+    },
+
+     {
+        id: '14',
+        name: 'Tomato Pasta',
+        cookTime: '10-20',
+        price: 9,
+        favorite: false,
+        origins: ['Italy'],
+        stars: 3.0,
+        imageUrl: 'food-14.png',
+        tags: ['Fastfood','Pasta'],
+    },
+
+    {
+        id: '15',
+        name: 'WhiteSauce Pasta',
+        cookTime: '10-20',
+        price: 10,
+        favorite: true,
+        origins: ['Italy'],
+        stars: 4.5,
+        imageUrl: 'food-15.png',
+        tags: ['Fastfood','Pasta'],
+    },
+
+    {
+        id: '16',
+        name: 'Chicken Sandwich',
+        cookTime: '10-15',
+        price: 5,
+        favorite: true,
+        origins: ['UK'],
+        stars: 4.0,
+        imageUrl: 'food-16.png',
+        tags: ['Fastfood','Sandwich'],
+    },
+
+    {
+        id: '17',
+        name: 'Veg Sandwich',
+        cookTime: '10-15',
+        price: 4,
+        favorite: false,
+        origins: ['UK'],
+        stars: 4.0,
+        imageUrl: 'food-17.png',
+        tags: ['Fastfood','Sandwich'],
+    },
+
+    {
+        id: '18',
+        name: 'Grilled Sandwich',
+        cookTime: '10-15',
+        price: 5,
+        favorite: false,
+        origins: ['UK'],
+        stars: 4.0,
+        imageUrl: 'food-18.png',
+        tags: ['Fastfood','Sandwich'],
+    },
+
+    {
+        id: '19',
+        name: 'Ripple Ice Cream',
+        cookTime: '05-10',
+        price: 10,
+        favorite: false,
+        origins: ['Persia'],
+        stars: 4.0,
+        imageUrl: 'food-19.png',
+        tags: ['Dessert', 'Icecream'],
+    },
+
+    {
+        id: '20',
+        name: 'Jar Ice Cream ',
+        cookTime: '05-10',
+        price: 8,
+        favorite: true,
+        origins: ['Persia'],
+        stars: 4.5,
+        imageUrl: 'food-20.png',
+        tags: ['Dessert','Icecream'],
+    },
+
+    {
+        id: '21',
+        name: 'Vanilla Ice Cream',
+        cookTime: '05-10',
+        price: 5,
+        favorite: false,
+        origins: ['Persia'],
+        stars: 4.0,
+        imageUrl: 'food-21.png',
+        tags: ['Dessert','Icecream'],
+    },
+];
+
+
+export const sample_tags = [
+    {name: 'All', count:21 },
+    {name: 'Fastfood', count: 16 },
+    {name: 'Soup', count: 1 },
+    {name: 'Pizza', count: 2 },
+    {name: 'Hamburger', count: 1 },
+    {name: 'Fry', count: 1 },
+    {name: 'Sandwich', count: 3 },
+    {name: 'Noodles', count: 3 },
+    {name: 'Roll', count: 3 },
+    {name: 'Pasta', count: 3 },
+    {name: 'Icecream', count: 3 },
+];
+
+
+export const sample_users = [
+    {
+        id:1,
+        name: 'John',
+        email: 'john@gmail.com',
+        password: '301101',
+        address: 'US',
+        isAdmin: false,
+    },
+
+    {
+        id:2,
+        name: 'Vasanth',
+        email: 'vasanthk30@gmail.com',
+        password: '301101',
+        address: 'CDM',
+        isAdmin: true,
+    },
+];
+
+
+export const sample_logo = [
+    {
+        name: 'Feasty_Logo',
+        imageUrl: 'logo_app.png',
+    }
+]
