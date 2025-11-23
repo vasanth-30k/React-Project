@@ -34,7 +34,7 @@ useEffect(() => {
 
   return (
     <>
-        <Search/>
+        <Search margin='3rem'/>
         <Tags tags={tags}/>
         {foods.length === 0 && <NotFound/>}
         <Thumbnails foods={foods}/>

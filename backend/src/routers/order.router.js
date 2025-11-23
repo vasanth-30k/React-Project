@@ -5,6 +5,7 @@ import { BAD_REQUEST, NOT_FOUND, UNAUTHORIZED } from "../constants/httpStatus.js
 import { OrderModel } from "../models/order.model.js";
 import { OrderStatus } from "../constants/orderStatus.js";
 import { UserModel } from "../models/user.model.js";
+import { sendEmailReceipt } from "../helper/mail.helper.js";
 
 const router = Router();
 router.use(auth);
@@ -40,6 +41,9 @@ router.put(
         order.paymentId = paymentId;
         order.status = OrderStatus.PAID;
         await order.save();
+
+        sendEmailReceipt(order);
+
         res.send(order._id);
     })
 );
@@ -99,7 +103,7 @@ const getNewOrderForCurrentUser = async req => {
     return await OrderModel.findOne({
       user: req.user.id, 
       status: OrderStatus.NEW,
-    });
+    }).populate('user');
   }; 
 
 

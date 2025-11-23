@@ -289,9 +289,3 @@ export const sample_users = [
 ];
 
 
-export const sample_logo = [
-    {
-        name: 'Feasty_Logo',
-        imageUrl: 'logo_app.png',
-    }
-]

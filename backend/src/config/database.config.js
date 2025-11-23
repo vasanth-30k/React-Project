@@ -9,7 +9,7 @@ set('strictQuery', true);
 
 export const dbconnect = async () => {
     try{
-        connect(process.env.ATLAS_URI);
+        await connect(process.env.MONGO_URI);
         await seedUsers();
         await seedFoods();
         console.log('Connected to Database...');
